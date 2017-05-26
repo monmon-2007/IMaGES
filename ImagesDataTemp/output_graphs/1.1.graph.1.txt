@@ -1,0 +1,8 @@
+Graph Nodes:
+ACC,Amygdala,VMPFC
+
+Graph Edges:
+1. ACC --- Amygdala
+2. VMPFC --- ACC
+3. VMPFC --- Amygdala
+

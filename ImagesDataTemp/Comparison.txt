@@ -1,0 +1,59 @@
+Fri May 26 12:47:27 EDT 2017
+
+Statistics:
+
+avgDegree = Extra column for avgDegree
+sampleSize = Extra column for sampleSize
+AP = Adjacency Precision
+AR = Adjacency Recall
+AHP = Arrowhead precision
+AHR = Arrowhead recall
+SHD = Structural Hamming Distance
+E = Elapsed Time in Seconds
+
+Parameters:
+
+numRuns = 1
+
+Simulation:
+
+Load data sets and graphs from a directory.
+
+
+Algorithms:
+
+1. IMaGES for continuous variables (using the SEM BIC score)
+
+Weighting of statistics:
+
+U = 
+    1.0 * f(AP)
+    0.5 * f(AR)
+    1.0 * f(AHP)
+    0.5 * f(AHR)
+
+Note that f for each statistic is a function that maps the statistic to the 
+interval [0, 1], with higher being better.
+
+
+AVERAGE STATISTICS
+
+All edges
+
+  avgDegree  sampleSize    AP    AR   AHP   AHR   SHD     E     U
+          ?           ?  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+
+STANDARD DEVIATIONS
+
+All edges
+
+  avgDegree  sampleSize  AP  AR  AHP  AHR  SHD  E     U
+          ?           ?   ?   ?    ?    ?    ?  ?  0.00
+
+WORST CASE
+
+All edges
+
+  avgDegree  sampleSize    AP    AR   AHP   AHR   SHD     E     U
+          ?           ?  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+
